@@ -1,0 +1,21 @@
+1.3 Chọn "Continue"   Tải lại tiến trình điều tra gần nhất (chỉ khả dụng khi có file save)
+
+2.1 Hướng dẫn đầu game   Hướng dẫn mượt mà các thao tác: Di chuyển, tương tác, thu thập manh mối đầu tiên, thoại và giải đố.   
+
+3.1 Khởi tạo vụ án   Nhân vật xuất hiện đúng vị trí ban đầu tại 1 địa điểm cố định; tải đúng vật thể, NPC và mục tiêu ban đầu.   
+
+7.1 Sổ tay manh mối   Hiển thị danh sách và mô tả ngắn của các manh mối đã nhặt; phân biệt rõ manh mối đã/chưa tìm thấy.   
+
+8.1 Giải đố (Tối đa 2 đố)   Tương tác đố (như nối dây điện/giải mã); báo lỗi khi làm sai (cho thử lại) và cập nhật mục tiêu khi làm đúng.   
+
+10.1 Tuần tra & Phát hiện   AI lính gác di chuyển theo tuyến đường; phát hiện và đổi trạng thái báo động khi người chơi vào vùng nhìn (không gây Game Over).   
+
+10.2 Thích ứng hành vi   AI chọn hành động tuần tra khác dựa trên lịch sử di chuyển/bị phát hiện của người chơi (dùng model ML pre-trained)
+
+11.1 Túi đồ & Mục tiêu   Lưu/hiển thị các vật phẩm phụ (non-evidence); HUD cập nhật đúng mục tiêu điều tra theo từng giai đoạn
+
+  12.1 Tố giác nghi phạm   Mở màn hình tố giác khi thu thập đủ ~5 manh mối:   - Chọn sai: Hiển thị thông báo sai, cho phép xem lại manh mối để chọn lại.   - Chọn đúng: Hiển thị màn hình kết thúc vụ án (Resolution) và mở tùy chọn quay lại Main Menu.   
+
+13.1 Lưu & Tải game   Lưu chính xác vị trí, danh sách manh mối, trạng thái vụ án ra file JSON cục bộ; khôi phục chuẩn xác khi Load.   
+
+14.1 Tạm dừng & Thoát   Nút Pause đóng đóng băng game, tùy chỉnh được Audio/Settings; thoát game an toàn không làm hỏng file Save.   
